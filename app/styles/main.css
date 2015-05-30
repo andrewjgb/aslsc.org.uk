@@ -86,4 +86,32 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
-}
+
+
+  /* Resize navbar */
+  .navbar {
+    height: 300;
+  }
+  }
+	
+	/* Correct for larger banner image */
+	#navbar > ul.nav.navbar-nav > li > a {
+	padding-top: 25px;
+	padding-bottom: 25px;
+    }
+	
+	/* Nav banner image */
+	.navbar-header > a > img {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    height: 70px;
+	}
+	
+	/* Navbar collapsed button positioning */
+	body > nav > div > div.navbar-header > button {
+	
+    margin-top: 18px;
+    margin-bottom: 18px;
+	}
