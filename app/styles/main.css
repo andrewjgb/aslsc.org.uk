@@ -92,6 +92,22 @@ body {
   .navbar {
     height: 300;
   }
+  	/* Background image */
+	.full {
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	}
+	
+		body > div {
+	background-color: white;
+	}
+	body {
+	padding-top: 100px;
+	}
+  
   }
 	
 	/* Correct for larger banner image */
@@ -115,3 +131,11 @@ body {
     margin-top: 18px;
     margin-bottom: 18px;
 	}
+	
+	.jumbotron {
+	background-image: url('https://www.colourbox.com/preview/11573274-leopard-print-pattern-gray-scale-vector.jpg');
+	}
+	
+
+
+	
