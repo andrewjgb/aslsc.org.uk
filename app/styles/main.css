@@ -94,7 +94,7 @@ body {
   }
   	/* Background image */
 	.full {
-    background: url('../images/background.svg') no-repeat center -70px fixed;
+    background: url('../images/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
